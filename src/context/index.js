@@ -4,7 +4,7 @@ export const GlobalContext = createContext(null);
 
 export default function GlobalState({ children }) {
   const [formData, setFormData] = useState({
-    type: "income",
+    type: "expense",
     amount: 0,
     description: "",
   });
